@@ -1,0 +1,18 @@
+ .row2{
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+   min-height: 100vh;
+   
+}
+   
+form.login{
+    background-color: black;
+    color: rgb(175, 165, 165);
+    
+    padding: 30px;
+    }
+   p.login{
+       color: rgb(133, 122, 122);
+       text-align: left;
+   } 

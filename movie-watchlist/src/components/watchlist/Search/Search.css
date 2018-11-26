@@ -1,0 +1,52 @@
+form.style{
+    background: black;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid rgb(37, 37, 36);
+    box-shadow: 3px 3px 3px #2e2c2c;
+}
+.col-md-12 .col2{
+    padding: 0; 
+    margin: 0;
+}
+
+input{
+    
+    background-color: black;
+    border: 0;
+    width: 70%;
+    color: rgb(69, 209, 192);
+    font-size: 30px;
+    font-weight: bold;
+    outline:0;
+       
+}
+
+p{
+    color: rgb(15, 15, 15);
+}
+
+li{
+    color: rgb(160, 155, 155);
+    text-decoration-line: underline;
+    font-size: 16px;
+    list-style: none;
+}
+
+ul{
+    color: rgb(160, 155, 155);
+    text-align: left;
+    width: 50%;
+    margin-left: 20px
+    
+}
+a{
+    margin-right: 0;
+    left: 92%;
+    position: relative;
+    font-size: 20px;
+    color: rgb(20, 94, 107);
+    
+  } 
+

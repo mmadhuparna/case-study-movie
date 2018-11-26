@@ -1,0 +1,51 @@
+  .style{
+    display: inline-block;
+  }
+  .imgcontainer{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    position: relative;
+    
+  }
+ .imgcontainer img{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    
+     box-shadow: 0 0 5px  rgb(41, 40, 40);
+    }
+    .imgcontainer:hover img{
+      filter: blur(1.7px);
+    }
+  
+    
+    
+    .para{
+      color: rgb(141, 133, 133);
+      font-size: 15px;
+      font-weight: bold;
+    }
+   .imgcontainer button.click{
+      top:-12px;
+      left: -12px;
+      position: absolute;
+      border-radius: 50%;
+      border: none;
+      background: red;
+      color: rgb(199, 177, 177);
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 5px;
+      width: 30px;
+      height: 30px;
+      padding-top: 0;
+      margin-top: 0;
+      opacity: 0;
+    }
+    .imgcontainer:hover button.click{
+      opacity:1;
+    }
