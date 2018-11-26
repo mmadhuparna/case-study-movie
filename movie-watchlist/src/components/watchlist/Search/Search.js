@@ -22,6 +22,7 @@ class MovieFinder extends React.Component {
     event.preventDefault();
     const query = this._query.value;
     const url = `https://api.themoviedb.org/3/search/movie?api_key=66a36cfd82ace2dd1264616cbd7fc59b&language=fr&query=${query}`;
+   //fetching tmdb api
     axios.get(url)
       .then(response => {
         this.setState({ results: response.data.results });
